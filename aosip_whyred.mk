@@ -60,4 +60,4 @@ TARGET_VENDOR := Xiaomi
 
 AOSIP_BUILDTYPE := Azimxv-Edition
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=AzimovHero
+    ro.aosip.maintainer=AzimovHero
