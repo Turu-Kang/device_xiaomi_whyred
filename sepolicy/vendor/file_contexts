@@ -35,7 +35,6 @@
 # Video4linux sysfs nodes
 /sys/devices/soc/caa0000\.qcom,jpeg/video4linux/video1(/.*)?   u:object_r:sysfs_graphics:s0
 
-<<<<<<< HEAD
 # Kcal
 /sys/devices/platform/kcal_ctrl.0(/.*)?         u:object_r:kcal_dev:s0
 /sys/bus/platform/drivers/kcal_ctrl(/.*)?       u:object_r:kcal_dev:s0
@@ -43,10 +42,9 @@
 # HW Info
 /sys/devices/platform/HardwareInfo(/.*)? u:object_r:sysfs_info:s0
 /sys/devices/platform/HardwareInfo/gsensor  u:object_r:sysfs_info:s0
-=======
+
 # Service HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.authsecret@1\.0-service u:object_r:hal_authsecret_default_exec:s0
 
 # Thermal
-/data/vendor/thermal(/.*)?                    												        u:object_r:thermal_data_file:s0
->>>>>>> 011187d... whyred: Address thermal-engine denials
+/data/vendor/thermal(/.*)? 
