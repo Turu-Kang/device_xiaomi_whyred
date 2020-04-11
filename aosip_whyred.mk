@@ -38,7 +38,7 @@ IS_PHONE := true
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-PRODUCT_NAME := aosip_whyred
+PRODUCT_NAME := Evolution-X_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -58,6 +58,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 TARGET_VENDOR := Xiaomi
 
-AOSIP_BUILDTYPE := Azimxv-Edition
+AOSIP_BUILDTYPE := predator-Edition
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.aosip.maintainer=AzimovHero
+    ro.aosip.maintainer=iqbal
