@@ -28,8 +28,8 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-# Inherit some common Evolution-X stuff.
-$(call inherit-product, vendor/evolution-x/config/common_full_phone.mk)
+# Inherit some common AOSiP stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Bootanimation world
 TARGET_BOOT_ANIMATION_RES := 1080
